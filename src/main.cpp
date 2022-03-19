@@ -126,7 +126,7 @@ void setup(void)
   pinMode(LED_BUILTIN, OUTPUT);
   Serial.begin(SERIAL_BAUD_RATE);
 
-  Debug.setResetCmdEnabled(true);
+  Debug.setResetCmdEnabled(false);
   Debug.showColors(true);
   Debug.setSerialEnabled(true);
 
